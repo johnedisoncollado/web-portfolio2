@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', monospace;
+}
+
+html, body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.shape1{
+    overflow:hidden;
+}
+
+.shaped{
+    height:100vh;
+    width:25vw;
+    background-image: url('../../assets/images/pinkspace.jpeg');
+    background-position: center;
+    background-repeat:  no-repeat;
+    position: relative;
+    background-size:cover;
+	animation-name: sample;
+	animation-duration: 40s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.shaped_1{
+    height:30vh;
+    width:75vw;
+    /*background: url(../assets/images/pattern.jpg) center top no-repeat;*/
+    background-color: #a31aff;
+
+}
+
+.shaped_2{
+    height:70vh;
+    width:75vw;
+    /*background: url(../assets/images/pattern.jpg) center top no-repeat;*/
+    background-color: #a31aff;
+    background-size:cover;
+}
+
+/*.shaped_3{
+    height:55vh;
+    width:75vw;
+	padding-top: 1rem;
+    background: url(../assets/images/pattern.jpg) center top no-repeat;
+    background-color: #a31aff;
+    background-size:cover;
+}*/
+
+/*.shaped_4{
+    height:10vh;
+    width:75vw;
+    padding-top: 1.5rem;
+    /*background: url(../assets/images/pattern.jpg) center top no-repeat;*/
+   /* background-color: #a31aff;*/
+
+   /* background-size:cover;
+}*/
+
+/*.shaped_5{
+    min-height:35vh;
+    width:75vw;
+    background: url(../assets/images/pattern.jpg) center top no-repeat;
+    background-color: #a31aff;
+
+    background-size:cover;
+}*/
+
+.name{
+	font-size: 400%;
+}
+
+.name, .title{
+	color: white;
+}
+
+
+
+.shaped_1, .shaped_2, .shaped_3, .shaped_4, .shaped_5{
+	background-color: #a31aff;
+	animation-name: example;
+ 	animation-duration: 40s;
+ 	animation-iteration-count: infinite;
+ 	animation-timing-function: linear;
+}
+
+@keyframes example {
+  0%   {background-color: #a31aff;}
+  20%  {background-color: #cca300;}
+  40%  {background-color: #0066ff;}
+  60% {background-color: #009900;}
+  80% {background-color: #ff0000;}
+  100% {background-color: #a31aff;}
+}
+
+
+@keyframes sample {
+  0%   {background-image: url('../../assets/images/pinkspace.jpeg');}
+  20%  {background-image: url('../../assets/images/yellowspace.jpeg');}
+  40%  {background-image: url('../../assets/images/bluespace.jpeg');}
+  60% {background-image: url('../../assets/images/greenspace.jpeg');}
+  80% {background-image: url('../../assets/images/redspace.jpeg');}
+  100% {background-image: url('../../assets/images/pinkspace.jpeg');}
+}
+
+.r0{
+  height: 5%;
+  background-color: #f2f2f2;
+  margin-left: 0;
+}
+
+.r1{
+  height: 50%;
+  background-color: #33ccff;
+  padding-left: 0;
+  padding-top: 3rem; 
+  padding-bottom: 1rem; 
+  margin-left: 0;
+}
+
+.rh{
+  background-color: #f2f2f2;
+}
+
+.r2{
+  min-height: 35%;
+  background-color: #f2f2f2;
+}
+
+.r3{
+  padding-top:: 60px;
+}
+
+
+.text-ash{
+  color: #f2f2f2;
+}
+
+img{
+  height: 40vh;
+  width: 25vw;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  object-fit: cover;
+}
+
+.card{
+  border: none;
+  background-color: transparent;
+
+}
+
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-red{
+  background-color: #cc0000;
+}
+
+.bg-ponkan{
+  background-color: #ff3300;
+}
+
+.orange{
+  color: orange;
+}
+
+.blue{
+  color: #0066ff;
+}
+
+.grey{
+  color: #666666;
+}
+
+.red{
+  color: #cc0000;
+}
+
+.ponkan{
+  color: #ff3300;
+}
+
+.progress{
+    height: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+i{
+  font-size: 8rem;
+}
+
+@media only screen and (max-width: 400px) {
+  img {
+    width: 80vw;
+  }
+}

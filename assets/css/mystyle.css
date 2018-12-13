@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.jumbotron{
+	background-color: #141414;
+	height: 100vh;
+	border-radius: 0;
+}
+
+#about-landing{
+	color: #424242;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+#home{
+	background: url('../images/pattern2.jpg') no-repeat center center fixed;
+	display: table;
+	color: white;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.padding{
+	padding: 10%;
+	height: 70vh;
+}
+
+.info1{
+	height: 40vh;
+}
+
+#me{
+	padding: 50px;
+	max-height:300px;
+	max-width: auto; 
+}
+
+#mem{
+	padding: 5px;
+	max-height: 100px;
+	max-width: auto;
+}
+
+.landing-text{
+	padding-top: 5rem;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.landing-text > h1{
+	font-family: 'Patua One', cursive;
+	font-size: 7rem;
+	font-weight: 500;
+}
+
